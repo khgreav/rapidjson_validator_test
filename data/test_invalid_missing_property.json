@@ -1,0 +1,6 @@
+{
+    "baseProp": "testBase",
+    "childProp": {
+        "childProp2": false
+    }
+}

@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"type": "object",
+	"title": "Test child",
+	"required": [
+		"childProp1",
+		"childProp2"
+	],
+	"additionalProperties": false,
+	"properties": {
+		"childProp1": {
+			"type": "string"
+		},
+		"childProp2": {
+			"type": "boolean"
+		}
+	}
+}

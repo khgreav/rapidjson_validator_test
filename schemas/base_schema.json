@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"type": "object",
+	"title": "Test base",
+	"required": [
+		"baseProp",
+		"childProp"
+	],
+	"additionalProperties": false,
+	"properties": {
+		"baseProp": {
+			"type": "string"
+		},
+		"childProp": {
+			"$ref": "child_schema.json"
+		}
+	}
+}
