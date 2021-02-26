@@ -1,0 +1,7 @@
+{
+	"type": "first",
+	"data": {
+		"firstProp": true,
+        "firstProp1": "additionalProperty"
+	}
+}

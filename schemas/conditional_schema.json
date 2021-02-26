@@ -1,0 +1,23 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"type": "object",
+	"title": "Conditional test",
+	"oneOf":[
+		{
+			"properties": {
+				"type": {"type": "string", "enum": ["first"]},
+				"data": {"$ref": "first_schema.json"}
+			},
+			"required": ["type","data"],
+			"additionalProperties": false
+		},
+		{
+			"properties": {
+				"type": {"type": "string", "enum": ["second"]},
+				"data": {"$ref": "second_schema.json"}
+			},
+			"required": ["type","data"],
+			"additionalProperties": false
+		}
+	]
+}
